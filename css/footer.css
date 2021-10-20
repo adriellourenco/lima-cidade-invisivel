@@ -1,0 +1,13 @@
+footer {
+    width: 100vw;
+    height: 75px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 0.8rem;
+}

@@ -1,0 +1,26 @@
+.butterfly {
+    position: absolute;
+
+    width: 60px;
+
+    top: 90vh;
+    left: 90vw;
+
+    filter: brightness(0.5);
+
+    animation: fly 5s linear infinite;
+}
+
+@keyframes fly {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(-10vw, -10vh);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
