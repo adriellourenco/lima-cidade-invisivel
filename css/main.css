@@ -1,0 +1,58 @@
+main {
+    flex-grow: 1;
+
+    font-family: "Open Sans", sans-serif;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0px 80px;
+}
+
+main h2 {
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+
+main h1 {
+    font-size: 4.5rem;
+    font-weight: 500;
+}
+
+main p {
+    width: 800px;
+    font-size: 1.5rem;
+
+    font-weight: 100;
+}
+
+main a.trailer-btn {
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #e50914;
+
+    border-radius: 5px;
+    border-color: #e50914;
+    border-width: 2px;
+    border-style: solid;
+
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+    transition: color 0.5s ease-in-out;
+    transition: background 0.25s ease-in-out;
+}
+
+main a.trailer-btn:hover {
+    background-color: #000000;
+    color: #e50914;
+}

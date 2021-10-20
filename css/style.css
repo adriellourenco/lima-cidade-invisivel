@@ -2,7 +2,7 @@ body {
     background-image: url("../img/home_bg.png");
     background-size: cover;
     background-position: right top;
-    background-color: #0004;
+    background-color: #17302c40;
     background-blend-mode: darken;
 
     width: 100vw;
@@ -11,8 +11,4 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-span {
-    color: white;
 }
