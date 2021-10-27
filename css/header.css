@@ -11,7 +11,7 @@ header {
     padding: 0px 80px;
 }
 
-.menu ul {
+.menu > ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,16 +20,16 @@ header {
     list-style: none;
 }
 
-.menu a {
+.menu li > a {
     color: white;
     text-decoration: none;
 
     font-family: "Roboto", sans-serif;
     font-size: 24px;
 
-    transition: color 0.5s ease-in-out;
+    transition: color 0.25s ease-in-out;
 }
 
-.menu a:hover {
+.menu ul li a.menu_item:hover {
     color: #e50914;
 }
