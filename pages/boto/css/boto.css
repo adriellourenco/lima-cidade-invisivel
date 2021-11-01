@@ -1,0 +1,29 @@
+body {
+	background-image: url("/img/lendas_boto_bg.png");
+	background-size: cover;
+	background-position: center;
+	background-color: #521e3740;
+	background-blend-mode: darken;
+
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+main h2 {
+	position: relative;
+}
+
+main h2 > span {
+	position: absolute;
+	left: 20.5%;
+	bottom: 75%;
+
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: white;
+	font-size: 4rem;
+	color: transparent;
+}
