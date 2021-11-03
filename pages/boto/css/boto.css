@@ -10,11 +10,12 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 main > h2 {
     position: relative;
+    width: 800px;
 }
 
 main > h2 > span {
